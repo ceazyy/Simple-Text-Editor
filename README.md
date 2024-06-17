@@ -28,6 +28,8 @@ Simple Text Editor is a text editor application built using C++ and Qt framework
 
 3. Build the project.
 
+4. To run the executable, you would need several DLLs which are tough to compile in one place, so it is advised to run this wish the Qt Creator.
+
 ## Usage
 
 1. Run the compiled executable.
