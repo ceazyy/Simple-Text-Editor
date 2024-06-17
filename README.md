@@ -1,6 +1,6 @@
 # Simple Text Editor
 
-Simple Text Editor is a text editor application built using C++ and Qt framework. It allows users to create, open, edit, and save text files with standard text editing functionalities.
+Simple Text Editor is a text editor application built using C++ and Qt framework. It allows users to create, open, edit, and save text files with standard text editing functionalities. I want to add several more features to it but I'll do it later. Also, if you want to help me related to this, feel free to add :D
 
 ## Features
 
