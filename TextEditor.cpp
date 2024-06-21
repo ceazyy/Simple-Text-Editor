@@ -19,7 +19,8 @@ TextEditor::TextEditor(QWidget *parent)
     setCentralWidget(textEdit);
 
     searchDialog = new SearchDialog(this);
-
+    // connect every block of option with their action
+    
     connect(ui->actionNew, &QAction::triggered, this, &TextEditor::newFile);
     connect(ui->actionOpen, &QAction::triggered, this, &TextEditor::openFile);
     connect(ui->actionSave, &QAction::triggered, this, &TextEditor::saveFile);
@@ -122,7 +123,7 @@ void TextEditor::pasteText()
 {
     textEdit->paste();
 }
-
+// I have a error here I want to fix, if anyone can help me i'd be glad
 void TextEditor::searchText()
 {
     // Show the search dialog and wait for user input
