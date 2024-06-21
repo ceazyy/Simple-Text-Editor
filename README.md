@@ -15,6 +15,7 @@ Simple Text Editor is a text editor application built using C++ and Qt framework
 ## Requirements
 
 - Qt framework (>= 5.0)
+- You can install it from it's official website. Older versions got their offline installers but newer versions requires credit.
 
 ## Installation
 
