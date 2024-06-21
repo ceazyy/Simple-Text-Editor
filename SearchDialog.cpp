@@ -11,7 +11,7 @@ SearchDialog::SearchDialog(QWidget *parent) :
     connect(ui->buttonBox, &QDialogButtonBox::accepted, this, &SearchDialog::accept);
     connect(ui->buttonBox, &QDialogButtonBox::rejected, this, &SearchDialog::reject);
 }
-
+// destructor
 SearchDialog::~SearchDialog()
 {
     delete ui;
